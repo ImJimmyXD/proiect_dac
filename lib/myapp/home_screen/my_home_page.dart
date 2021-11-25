@@ -180,6 +180,7 @@ class CircularButton extends StatelessWidget {
   final Icon icon;
   final VoidCallback onClick;
 
+  // ignore: use_key_in_widget_constructors
   const CircularButton(
       {required this.color,
       required this.width,
